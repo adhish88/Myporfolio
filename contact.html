@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="styles.css">
+
+
+        <title>My porfolio</title>
+        
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">Go back</a>
+                </div>
+
+                
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">sreenibandadhish@gmail.com</span>
+
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+230 58246823</span>
+
+                    <h3 class="contact__subtitle">ADDRESS</h3>
+                    <span class="contact__text">Mauritius, La Flora, Pamplemousses rd</span>
+                    
+                </div>
+                
+                <form id="form" action="connect.php" method="post"  >
+                    <div>
+                        <input type="text"  id="name" placeholder="Name" name="name" class="contact__input" required>
+                        <input type="text"  id="email" placeholder="Email" name="email" class="contact__input" required>
+                        
+                    </div>
+
+                    <input type="text"  id="message" placeholder="message" class="contact__input" name="message">
+
+                    <input type="submit" value="Submit" class="contact__button" >
+                </form>
+                <script defer src="script.js"></script>
+            </div>
+        </section>
+
+        
+
+        </body>
+        </html>
